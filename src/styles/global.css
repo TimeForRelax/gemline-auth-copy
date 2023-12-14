@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Nunito400";
+  src: url("../fonts/Nunito/Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito600";
+  src: url("../fonts/Nunito/SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito700";
+  src: url("../fonts/Nunito/Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Nunito800";
+  src: url("../fonts/Nunito/ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPMori600";
+  src: url("../fonts/PPMori/SemiBold.otf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
