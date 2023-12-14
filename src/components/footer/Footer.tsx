@@ -7,28 +7,20 @@ import { ReactComponent as DarkLogo } from '@assets/images/common/logo/dark_logo
 
 const FooterWrapper = styled(Box)`
   position: relative;
-  padding: 20px 70px;
+  padding: 20px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
 
   &:after {
     content: '';
-    width: calc(100% - 140px);
+    width: 100%;
     height: 1px;
     background-color: ${colorFetch('dark_mako_gray')({ theme })};
     position: absolute;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-  }
-
-  ${media.tablet} {
-    padding: 20px 30px;
-
-    &:after {
-      width: calc(100% - 60px);
-    }
   }
 `;
 
